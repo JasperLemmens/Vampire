@@ -82,4 +82,9 @@ public class PlayerShoot : PlayerBaseAttack {
         shootBullet(PlayerDirection.North);
         shootBullet(PlayerDirection.South);
     }
+
+    private Vector3 DirectionToClosestEnemy()
+    {
+        return Vector3.zero;
+    }
 }

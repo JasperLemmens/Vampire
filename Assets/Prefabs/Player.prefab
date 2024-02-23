@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 5799469502635363591}
   - component: {fileID: 1511028169}
   - component: {fileID: 1377298313}
+  - component: {fileID: 775114288612425006}
   - component: {fileID: 1551418633}
   - component: {fileID: 1551418634}
   - component: {fileID: 1551418635}
@@ -606,6 +607,24 @@ MonoBehaviour:
   onXpPickup: {fileID: 11400000, guid: c96abd3aa77828742980839b3a7bd1af, type: 2}
   onLevelUp: {fileID: 11400000, guid: 94dcac4108a92f743b8f903985339932, type: 2}
   pickUpSound: {fileID: 8300000, guid: c27b692d4e802ae429aed99c2ec60008, type: 3}
+--- !u!114 &775114288612425006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799469502635363643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63aa94822c6649149ac3fcad9e5563c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gatheringSpeed: 0.7
+  gatherIngRange: 1
+  Stone: 0
+  Wood: 0
+  Iron: 0
+  Bone: 0
 --- !u!114 &1551418633
 MonoBehaviour:
   m_ObjectHideFlags: 0
